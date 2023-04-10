@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1024px) {
+  .mobile-menu span {
+    display: block;
+  }
+  .text-box {
+    width: 115rem;
+  }
+  .row {
+    margin: 0 15px;
+  }
+  .menu-bar {
+    display: none;
+  }
+  html {
+    font-size: 57.5%;
+  }
+  .client-photo {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .client-review {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .contact form {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .text-box {
+    width: 76em;
+  }
+  body .span_1_of_4 {
+    width: 49.2%;
+  }
+  .col:nth-child(3) {
+    margin-left: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .text-box {
+    width: 46rem;
+  }
+  .little-desc {
+    width: 100%;
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .text-box {
+    width: 35rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  body .span_1_of_4 {
+    width: 100%;
+  }
+  .testmonial .col:nth-child(1),
+  .testmonial .col:nth-child(2),
+  .testmonial .col:nth-child(3),
+  .testmonial .col:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .testmonial .col:nth-child(3),
+  .testmonial .col:nth-child(4) {
+    margin-top: 4rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .text-box {
+    width: 32rem;
+  }
+}
